@@ -1,16 +1,14 @@
-# ngx-google-places-autocomplete
-This module is a wrapper for Google Places Autocomplete js library.
-
-[![NPM](https://nodei.co/npm/ngx-google-places-autocomplete.png)](https://nodei.co/npm/ngx-google-places-autocomplete/)
+# @wiredviews/ngx-google-places-autocomplete
+This module is a wrapper for Google Places Autocomplete js library.  This repository has been forked from https://github.com/skynet2/ngx-google-places-autocomplete
 
 # Installation
 #### npm
 ```
-npm install ngx-google-places-autocomplete
+npm install @wiredviews/ngx-google-places-autocomplete
 ```
 #### yarn
 ```
-yarn add ngx-google-places-autocomplete
+yarn add @wiredviews/ngx-google-places-autocomplete
 ```
 # Integration
 1. Add google library in your index.html file : 
@@ -44,7 +42,7 @@ import { GooglePlaceModule } from "ngx-google-places-autocomplete";
 
 ## Options
 Refer to original google maps api - https://developers.google.com/maps/documentation/javascript/places-autocomplete
-Options object - https://github.com/skynet2/ngx-google-places-autocomplete/blob/master/src/objects/options/options.ts
+Options object - https://github.com/wiredviews/ngx-google-places-autocomplete/blob/master/src/objects/options/options.ts
 
 Example : 
 ```html  
@@ -55,4 +53,4 @@ Example :
 ```
 
 # GitHub
-Please feel free to declare issues or contribute: https://github.com/skynet2/ngx-google-places-autocomplete
+Please feel free to declare issues or contribute: https://github.com/wiredviews/ngx-google-places-autocomplete
