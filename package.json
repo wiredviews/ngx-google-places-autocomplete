@@ -1,6 +1,6 @@
 {
-  "name": "ngx-google-places-autocomplete",
-  "version": "2.0.5",
+  "name": "@wiredviews/ngx-google-places-autocomplete",
+  "version": "2.0.6",
   "scripts": {
     "start": "tsc -p example && tsc -p src && concurrently \"tsc -p example -w\" \"tsc -p src -w\" \"lite-server --config sync-bs-config.json\" ",
     "yarn": "yarn",
@@ -13,12 +13,12 @@
   "main": "bundles/ngx-google-places-autocomplete.umd.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/skynet2/ngx-google-places-autocomplete"
+    "url": "git+https://github.com/wiredviews/ngx-google-places-autocomplete"
   },
   "bugs": {
-    "url": "https://github.com/skynet2/ngx-google-places-autocomplete/issues"
+    "url": "https://github.com/wiredviews/ngx-google-places-autocomplete/issues"
   },
-  "homepage": "https://github.com/skynet2/ngx-google-places-autocomplete",
+  "homepage": "https://github.com/wiredviews/ngx-google-places-autocomplete",
   "keywords": [
     "autocomplete",
     "google places",
@@ -28,6 +28,10 @@
     "angular"
   ],
   "contributors": [
+    {
+      "name": "Justin Conklin",
+      "url": "https://github.com/wiredviews/ngx-google-places-autocomplete"
+    },
     {
       "name": "Stas Dmytryshyn",
       "url": "https://github.com/skynet2/ngx-google-places-autocomplete"
